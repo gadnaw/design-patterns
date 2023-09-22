@@ -1,28 +1,13 @@
-import { SplitScreen } from './patterns/01.1-screen-patterns/SplitScreen'
-
-
-const LeftHandComponent = () =>{
-  // style your component here, the style in split-screen pattern is for layout
-
-  return <h1 className='bg-red-300 text-xl'>Left!</h1>
-}
-
-const RightHandComponent = () => {
-  // style your component here, the style in split-screen pattern is for layout
-
-  return <h3 className='bg-yellow-300'>Right!</h3>
-}
-
+import Link from "next/link";
 
 export default function Home() {
   return (
     <main>
-      <SplitScreen
-        left={LeftHandComponent}
-        right={RightHandComponent}
-        leftWeight={80}
-        rightWeight={1}
-      />
+      <h1 className="pb-2 ">Collection of React Patterns from Youtube!</h1>
+      <div className="flex flex-col">
+        <Link href="/splitscreenpattern" className="bg-red-100 border-2 border-solid border-red-200">1.1 Split Screen Pattern</Link>
+        <Link href="/splitscreenpattern" className="bg-red-100 border-2 border-solid border-red-200">1.2 List Item Pattern</Link>
+      </div>
     </main>
   )
 }
