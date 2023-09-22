@@ -1,5 +1,6 @@
-import RegularList from "./patterns/01.2-list-item-patterns/RegularList";
-import SmallPersonListItem from "./patterns/01.2-list-item-patterns/people/SmallPersonListItem";
+import RegularList from "../patterns/01.2-list-item-patterns/RegularList";
+import LargePersonListItem from "../patterns/01.2-list-item-patterns/people/LargePersonListItem";
+import SmallPersonListItem from "../patterns/01.2-list-item-patterns/people/SmallPersonListItem";
 
 const people = [{
     name: 'John Doe',
@@ -35,8 +36,15 @@ const products = [{
     rating: 4.2,
 }];
 
-function App() {
-    return (
-        <RegularList items= {people} resourceName="person" itemComponent={SmallPersonListItem}>
-    );
+
+function page() {
+  return (
+    <>
+    <div>List Item Pattern</div>
+    <RegularList items= {people} resourceName="person" itemComponent={SmallPersonListItem}/>
+    <RegularList items= {people} resourceName="person" itemComponent={LargePersonListItem}/>
+    </>
+  )
 }
+
+export default page
