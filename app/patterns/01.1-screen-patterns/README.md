@@ -1,2 +1,2 @@
-https://www.youtube.com/watch?v=iOSKV2rmj-A
-https://www.youtube.com/playlist?list=PLgeETUaEEds5HE2uGWezJxYeZwpBonHr-
+NOTE for improvement:
+1. Add youtube, FB, Spotify, Twitter, Common Portfolio Split screen here
