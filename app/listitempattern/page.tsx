@@ -38,10 +38,12 @@ const products = [{
 
 
 function page() {
-  return (
-    <>
+    return (
+        <>
     <div>List Item Pattern</div>
+        {/* @ts-ignore */}
     <RegularList items= {people} resourceName="person" itemComponent={SmallPersonListItem}/>
+        {/* @ts-ignore */}
     <RegularList items= {people} resourceName="person" itemComponent={LargePersonListItem}/>
     </>
   )

@@ -1,10 +1,10 @@
-import LeftHandComponent from "../components/LeftHandComponent";
-import LeftHandComponent2 from "../components/LeftHandComponent2";
-import RightHandComponent from "../components/RightHandComponent";
-import RightHandComponent2 from "../components/RightHandComponent2";
 
 import { SplitScreen } from "../patterns/01.1-screen-patterns/SplitScreen";
 import { SplitScreenVersion2 } from "../patterns/01.1-screen-patterns/SplitScreenVersion2";
+import LeftHandComponent from "./components/LeftHandComponent";
+import LeftHandComponent2 from "./components/LeftHandComponent2";
+import RightHandComponent from "./components/RightHandComponent";
+import RightHandComponent2 from "./components/RightHandComponent2";
 
 
 export default function Page() {
