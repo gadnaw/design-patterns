@@ -29,6 +29,12 @@ export default function Home() {
         >
           02 Container Component Pattern
         </Link>
+        <Link
+          href="/screen-form-pattern"
+          className="bg-red-100 border-2 border-solid border-red-200"
+        >
+          03 Form Pattern (uncontrolled & controlled)
+        </Link>
       </div>
     </main>
   );
