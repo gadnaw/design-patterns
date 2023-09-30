@@ -35,6 +35,12 @@ export default function Home() {
         >
           03 Form Pattern (uncontrolled & controlled)
         </Link>
+        <Link
+          href="/screen-onboarding-flow"
+          className="bg-red-100 border-2 border-solid border-red-200"
+        >
+          04 Onboarding Flow
+        </Link>
       </div>
     </main>
   );

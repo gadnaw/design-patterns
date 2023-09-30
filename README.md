@@ -4,3 +4,7 @@ https://www.youtube.com/watch?v=qDXbZMNTwGw
 https://www.youtube.com/watch?v=eXRlVpw1SIQ
 https://www.youtube.com/watch?v=Li9Cx_1gwqM
 https://www.youtube.com/watch?v=Y12sGu8-qFE
+
+Important Lessons:
+
+1. pattern on 02 Container component and 04 Onboarding flow need passing custom prop to its children using "React.cloneElement(chile, {customProps})"
